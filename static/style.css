@@ -1,0 +1,12 @@
+body{font-family: Arial, Helvetica, sans-serif;margin:0;padding:0;background:#f5f6fa}
+header{background:#2b2f77;color:white;padding:10px 20px}
+#app{display:flex;padding:12px;gap:12px}
+#left{flex:1}
+#right{width:320px}
+#mapCanvas{border:1px solid #aaa;background:#fff}
+#controls{margin-top:8px}
+.row{display:flex;gap:6px;margin-bottom:6px}
+input,select,button{padding:6px}
+.panel{background:white;padding:8px;border-radius:6px;margin-bottom:8px;border:1px solid #ddd}
+#log{height:150px;overflow:auto;background:#0b0b0b;color:#0f0;padding:6px}#driversList,#ridesList{height:170px;overflow:auto}
+.driverTag{border-bottom:1px solid #eee;padding:6px}
